@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8788061EB857DB000856FF /* XIPageBarUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8787F61EB85728000856FF /* XIPageBarUtility.m */; };
+		0D8788081EB857DB000856FF /* XIPageBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF87861D23B66600EE7C86 /* XIPageBarView.m */; };
+		0D8788091EB857DB000856FF /* XIPageContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF87881D23B66600EE7C86 /* XIPageContainerView.m */; };
+		0D8788111EB85886000856FF /* XICustomBarConfigurations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0DEF87841D23B66600EE7C86 /* XICustomBarConfigurations.h */; };
+		0D8788121EB85886000856FF /* XIPageBarView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0DEF87851D23B66600EE7C86 /* XIPageBarView.h */; };
+		0D8788131EB85886000856FF /* XIPageContainerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0DEF87871D23B66600EE7C86 /* XIPageContainerView.h */; };
+		0D8788151EB85886000856FF /* XIPageBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0DEF87511D23B5D300EE7C86 /* XIPageBar.h */; };
+		0D87881B1EB8932A000856FF /* XISpacingPageContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D87881A1EB8932A000856FF /* XISpacingPageContainerView.m */; };
+		0D8788201EB89363000856FF /* XICardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D87881D1EB89363000856FF /* XICardFlowLayout.m */; };
+		0D8788211EB89363000856FF /* XICardFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D87881F1EB89363000856FF /* XICardFlowView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D8787FB1EB857B9000856FF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0D8788111EB85886000856FF /* XICustomBarConfigurations.h in CopyFiles */,
+				0D8788121EB85886000856FF /* XIPageBarView.h in CopyFiles */,
+				0D8788131EB85886000856FF /* XIPageContainerView.h in CopyFiles */,
+				0D8788151EB85886000856FF /* XIPageBar.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D8787F51EB85728000856FF /* XIPageBarUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIPageBarUtility.h; sourceTree = "<group>"; };
+		0D8787F61EB85728000856FF /* XIPageBarUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIPageBarUtility.m; sourceTree = "<group>"; };
+		0D8787FD1EB857B9000856FF /* libXIPageBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXIPageBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8788191EB8932A000856FF /* XISpacingPageContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XISpacingPageContainerView.h; sourceTree = "<group>"; };
+		0D87881A1EB8932A000856FF /* XISpacingPageContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XISpacingPageContainerView.m; sourceTree = "<group>"; };
+		0D87881C1EB89363000856FF /* XICardFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICardFlowLayout.h; sourceTree = "<group>"; };
+		0D87881D1EB89363000856FF /* XICardFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICardFlowLayout.m; sourceTree = "<group>"; };
+		0D87881E1EB89363000856FF /* XICardFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICardFlowView.h; sourceTree = "<group>"; };
+		0D87881F1EB89363000856FF /* XICardFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XICardFlowView.m; sourceTree = "<group>"; };
+		0DEF87511D23B5D300EE7C86 /* XIPageBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XIPageBar.h; sourceTree = "<group>"; };
+		0DEF87531D23B5D300EE7C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DEF87841D23B66600EE7C86 /* XICustomBarConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XICustomBarConfigurations.h; sourceTree = "<group>"; };
+		0DEF87851D23B66600EE7C86 /* XIPageBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIPageBarView.h; sourceTree = "<group>"; };
+		0DEF87861D23B66600EE7C86 /* XIPageBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIPageBarView.m; sourceTree = "<group>"; };
+		0DEF87871D23B66600EE7C86 /* XIPageContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIPageContainerView.h; sourceTree = "<group>"; };
+		0DEF87881D23B66600EE7C86 /* XIPageContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIPageContainerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D8787FA1EB857B9000856FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DEF87441D23B5D300EE7C86 = {
+			isa = PBXGroup;
+			children = (
+				0DEF87501D23B5D300EE7C86 /* XIPageBar */,
+				0DEF874F1D23B5D300EE7C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DEF874F1D23B5D300EE7C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D8787FD1EB857B9000856FF /* libXIPageBar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DEF87501D23B5D300EE7C86 /* XIPageBar */ = {
+			isa = PBXGroup;
+			children = (
+				0D8787F51EB85728000856FF /* XIPageBarUtility.h */,
+				0D8787F61EB85728000856FF /* XIPageBarUtility.m */,
+				0DEF87841D23B66600EE7C86 /* XICustomBarConfigurations.h */,
+				0DEF87851D23B66600EE7C86 /* XIPageBarView.h */,
+				0DEF87861D23B66600EE7C86 /* XIPageBarView.m */,
+				0DEF87871D23B66600EE7C86 /* XIPageContainerView.h */,
+				0DEF87881D23B66600EE7C86 /* XIPageContainerView.m */,
+				0D8788191EB8932A000856FF /* XISpacingPageContainerView.h */,
+				0D87881A1EB8932A000856FF /* XISpacingPageContainerView.m */,
+				0D87881C1EB89363000856FF /* XICardFlowLayout.h */,
+				0D87881D1EB89363000856FF /* XICardFlowLayout.m */,
+				0D87881E1EB89363000856FF /* XICardFlowView.h */,
+				0D87881F1EB89363000856FF /* XICardFlowView.m */,
+				0DEF87511D23B5D300EE7C86 /* XIPageBar.h */,
+				0DEF87531D23B5D300EE7C86 /* Info.plist */,
+			);
+			path = XIPageBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D8787FC1EB857B9000856FF /* XIPageBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8788031EB857B9000856FF /* Build configuration list for PBXNativeTarget "XIPageBar" */;
+			buildPhases = (
+				0D8787F91EB857B9000856FF /* Sources */,
+				0D8787FA1EB857B9000856FF /* Frameworks */,
+				0D8787FB1EB857B9000856FF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XIPageBar;
+			productName = XIPageBar;
+			productReference = 0D8787FD1EB857B9000856FF /* libXIPageBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DEF87451D23B5D300EE7C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yxlong;
+				TargetAttributes = {
+					0D8787FC1EB857B9000856FF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0DEF87481D23B5D300EE7C86 /* Build configuration list for PBXProject "XIPageBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DEF87441D23B5D300EE7C86;
+			productRefGroup = 0DEF874F1D23B5D300EE7C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D8787FC1EB857B9000856FF /* XIPageBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D8787F91EB857B9000856FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8788061EB857DB000856FF /* XIPageBarUtility.m in Sources */,
+				0D8788211EB89363000856FF /* XICardFlowView.m in Sources */,
+				0D87881B1EB8932A000856FF /* XISpacingPageContainerView.m in Sources */,
+				0D8788201EB89363000856FF /* XICardFlowLayout.m in Sources */,
+				0D8788081EB857DB000856FF /* XIPageBarView.m in Sources */,
+				0D8788091EB857DB000856FF /* XIPageContainerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D8788041EB857B9000856FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0D8788051EB857B9000856FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0DEF87541D23B5D300EE7C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DEF87551D23B5D300EE7C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8788031EB857B9000856FF /* Build configuration list for PBXNativeTarget "XIPageBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8788041EB857B9000856FF /* Debug */,
+				0D8788051EB857B9000856FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DEF87481D23B5D300EE7C86 /* Build configuration list for PBXProject "XIPageBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DEF87541D23B5D300EE7C86 /* Debug */,
+				0DEF87551D23B5D300EE7C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DEF87451D23B5D300EE7C86 /* Project object */;
+}
