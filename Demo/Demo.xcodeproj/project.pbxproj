@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0D0A36631EB99C2A000949CE /* libXIPageBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0A36621EB99C2A000949CE /* libXIPageBar.a */; };
+		0D234FD120E37CBB00CD626C /* ImageBgHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D234FD020E37CBB00CD626C /* ImageBgHeaderView.m */; };
+		0D234FD720E37FA100CD626C /* NestedContainerViewController+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D234FD620E37FA100CD626C /* NestedContainerViewController+Utility.m */; };
+		0D234FDA20E3874900CD626C /* NestedContainerItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D234FD920E3874900CD626C /* NestedContainerItemViewController.m */; };
+		0D234FDD20E3883500CD626C /* ContainerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D234FDC20E3883500CD626C /* ContainerTableView.m */; };
 		0D8788401EB8966F000856FF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8788281EB8966F000856FF /* MASCompositeConstraint.m */; };
 		0D8788411EB8966F000856FF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D87882B1EB8966F000856FF /* MASConstraint.m */; };
 		0D8788421EB8966F000856FF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D87882D1EB8966F000856FF /* MASConstraintMaker.m */; };
@@ -26,6 +30,7 @@
 		0D8788611EB896E6000856FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8788561EB896E6000856FF /* ViewController.m */; };
 		0D8788621EB896E6000856FF /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8788591EB896E6000856FF /* UIColor+Random.m */; };
 		0D8788631EB896E6000856FF /* XIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D87885B1EB896E6000856FF /* XIViewController.m */; };
+		0D88F54720E1CC99005EDC8B /* NestedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D88F54620E1CC99005EDC8B /* NestedContainerViewController.m */; };
 		0DEF87671D23B5F100EE7C86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF87661D23B5F100EE7C86 /* main.m */; };
 		0DEF876A1D23B5F100EE7C86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF87691D23B5F100EE7C86 /* AppDelegate.m */; };
 		0DEF87701D23B5F100EE7C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DEF876E1D23B5F100EE7C86 /* Main.storyboard */; };
@@ -52,6 +57,14 @@
 
 /* Begin PBXFileReference section */
 		0D0A36621EB99C2A000949CE /* libXIPageBar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXIPageBar.a; path = "../../../../Library/Developer/Xcode/DerivedData/Demo-folypigtrxvjnhcpdrghecbojuqa/Build/Products/Debug-iphonesimulator/libXIPageBar.a"; sourceTree = "<group>"; };
+		0D234FCF20E37CBB00CD626C /* ImageBgHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageBgHeaderView.h; sourceTree = "<group>"; };
+		0D234FD020E37CBB00CD626C /* ImageBgHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBgHeaderView.m; sourceTree = "<group>"; };
+		0D234FD520E37FA100CD626C /* NestedContainerViewController+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NestedContainerViewController+Utility.h"; sourceTree = "<group>"; };
+		0D234FD620E37FA100CD626C /* NestedContainerViewController+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NestedContainerViewController+Utility.m"; sourceTree = "<group>"; };
+		0D234FD820E3874900CD626C /* NestedContainerItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestedContainerItemViewController.h; sourceTree = "<group>"; };
+		0D234FD920E3874900CD626C /* NestedContainerItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedContainerItemViewController.m; sourceTree = "<group>"; };
+		0D234FDB20E3883500CD626C /* ContainerTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerTableView.h; sourceTree = "<group>"; };
+		0D234FDC20E3883500CD626C /* ContainerTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerTableView.m; sourceTree = "<group>"; };
 		0D8788271EB8966F000856FF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		0D8788281EB8966F000856FF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		0D8788291EB8966F000856FF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -93,6 +106,8 @@
 		0D8788591EB896E6000856FF /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		0D87885A1EB896E6000856FF /* XIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIViewController.h; sourceTree = "<group>"; };
 		0D87885B1EB896E6000856FF /* XIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIViewController.m; sourceTree = "<group>"; };
+		0D88F54520E1CC99005EDC8B /* NestedContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestedContainerViewController.h; sourceTree = "<group>"; };
+		0D88F54620E1CC99005EDC8B /* NestedContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedContainerViewController.m; sourceTree = "<group>"; };
 		0DEF87621D23B5F100EE7C86 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEF87661D23B5F100EE7C86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DEF87681D23B5F100EE7C86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +145,17 @@
 				0D0A36681EB99C87000949CE /* libXIPageBar.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0D234FA420E37AC700CD626C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D234FCF20E37CBB00CD626C /* ImageBgHeaderView.h */,
+				0D234FD020E37CBB00CD626C /* ImageBgHeaderView.m */,
+				0D234FDB20E3883500CD626C /* ContainerTableView.h */,
+				0D234FDC20E3883500CD626C /* ContainerTableView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		0D8788251EB8966F000856FF /* 3thParts */ = {
@@ -187,6 +213,12 @@
 				0D8788541EB896E6000856FF /* SpacingPageViewController.m */,
 				0D8788551EB896E6000856FF /* ViewController.h */,
 				0D8788561EB896E6000856FF /* ViewController.m */,
+				0D88F54520E1CC99005EDC8B /* NestedContainerViewController.h */,
+				0D88F54620E1CC99005EDC8B /* NestedContainerViewController.m */,
+				0D234FD520E37FA100CD626C /* NestedContainerViewController+Utility.h */,
+				0D234FD620E37FA100CD626C /* NestedContainerViewController+Utility.m */,
+				0D234FD820E3874900CD626C /* NestedContainerItemViewController.h */,
+				0D234FD920E3874900CD626C /* NestedContainerItemViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -225,6 +257,7 @@
 			children = (
 				0DEF87681D23B5F100EE7C86 /* AppDelegate.h */,
 				0DEF87691D23B5F100EE7C86 /* AppDelegate.m */,
+				0D234FA420E37AC700CD626C /* Views */,
 				0D8788571EB896E6000856FF /* Utils */,
 				0D87884A1EB896E6000856FF /* Classes */,
 				0D8788251EB8966F000856FF /* 3thParts */,
@@ -334,6 +367,7 @@
 			files = (
 				0D8788611EB896E6000856FF /* ViewController.m in Sources */,
 				0D87885C1EB896E6000856FF /* ContianerViewController.m in Sources */,
+				0D88F54720E1CC99005EDC8B /* NestedContainerViewController.m in Sources */,
 				0D8788601EB896E6000856FF /* SpacingPageViewController.m in Sources */,
 				0D8788481EB8966F000856FF /* View+MASAdditions.m in Sources */,
 				0D8788491EB8966F000856FF /* ViewController+MASAdditions.m in Sources */,
@@ -341,17 +375,21 @@
 				0D87885E1EB896E6000856FF /* CustomPageBarViewController.m in Sources */,
 				0D8788401EB8966F000856FF /* MASCompositeConstraint.m in Sources */,
 				0DEF876A1D23B5F100EE7C86 /* AppDelegate.m in Sources */,
+				0D234FDA20E3874900CD626C /* NestedContainerItemViewController.m in Sources */,
 				0D8788421EB8966F000856FF /* MASConstraintMaker.m in Sources */,
 				0D8788411EB8966F000856FF /* MASConstraint.m in Sources */,
 				0D8788471EB8966F000856FF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				0D8788431EB8966F000856FF /* MASLayoutConstraint.m in Sources */,
 				0D8788631EB896E6000856FF /* XIViewController.m in Sources */,
+				0D234FD720E37FA100CD626C /* NestedContainerViewController+Utility.m in Sources */,
 				0D8788621EB896E6000856FF /* UIColor+Random.m in Sources */,
 				0D8788461EB8966F000856FF /* NSArray+MASAdditions.m in Sources */,
+				0D234FD120E37CBB00CD626C /* ImageBgHeaderView.m in Sources */,
 				0DEF87671D23B5F100EE7C86 /* main.m in Sources */,
 				0D87885D1EB896E6000856FF /* CustomPageBarView.m in Sources */,
 				0D87885F1EB896E6000856FF /* SegmentedControlViewController.m in Sources */,
 				0D8788451EB8966F000856FF /* MASViewConstraint.m in Sources */,
+				0D234FDD20E3883500CD626C /* ContainerTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

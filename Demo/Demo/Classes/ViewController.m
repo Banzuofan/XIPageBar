@@ -26,7 +26,8 @@
     arr = @[@"ContianerViewController",
             @"SpacingPageViewController",
             @"CustomPageBarViewController",
-            @"SegmentedControlViewController"];
+            @"SegmentedControlViewController",
+            @"NestedContainerViewController"];
     
     contentTable = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     contentTable.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
